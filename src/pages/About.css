@@ -1,0 +1,253 @@
+.about{
+    position: relative;
+    top: -100px;
+    z-index: -1;
+    margin-left: 100px;
+}
+.row-block2{
+    padding-top: 80px;
+}
+
+.row-block3{
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+
+.vertical-line {
+    position: relative;
+    border-left: 2px solid black; 
+    height: 1762px; 
+    margin-top: -1682px;
+    margin-left: 200px;
+    z-index: 1001;
+}
+
+.horizontal-line {
+    position: relative;
+    border: 2px solid black; 
+    z-index: 1001;
+    margin-left: -120px;
+    opacity: 1;
+}
+
+.about-block{
+    background-color: white;
+}
+
+.block-title1{
+    position: relative;
+    top: 400px;
+    font-family: 'bebas_neue_regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    top: 0px;
+}
+
+.block-title2{
+    position: relative;
+    width: 176px;
+    font-family: 'bebas_neue_regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about-title{
+    position: relative;
+    top: 42px;
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 106px;
+    line-height: 108px;
+    text-transform: uppercase;
+    color: #9C0309;
+}
+
+.about-paragraph1{
+    position: relative;
+
+    height: 167px;
+    margin-left: 378px;
+    text-decoration: none;
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about-paragraph2{
+    position: relative;
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: justify;
+    color: #000000;
+    text-decoration: none;
+}
+
+.about-paragraph3{
+    position: relative;
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: justify;
+    color: #000000;
+    text-decoration: none;
+}
+
+.par1 a{
+    line-height: 1.2 !important; 
+}
+
+.par1{
+    margin-top: 40px;
+    
+}
+.par2{
+    padding-top: 60px;
+    position: relative;
+    text-align: justify;
+}
+
+.par3{
+    text-align: justify;
+}
+
+.photo-about1{
+    display: block;
+    margin-bottom: 10px; 
+}
+
+.photo-about2{
+    display: block;
+    margin-bottom: 10px; 
+}
+
+.photo-about2V2{
+    display: none;
+    margin-bottom: 10px; 
+}
+
+@media (max-width: 1730px) {
+
+    .about-title{
+        font-size: 96px;
+    }
+    
+    .about-paragraph1{
+        font-size: 36px;
+    }
+
+    .about{
+        margin-left: 0px;
+    }
+  }
+
+  @media (max-width: 1450px) {
+
+    .vertical-line {
+        margin-top: -1592px;
+        margin-left: 180px;
+    }
+
+    .photo-about1{
+        width: 600px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+
+    .vertical-line {
+        margin-top: -1592px;
+        margin-left: 180px;
+    }
+  }
+
+  @media (max-width: 1260px) {
+
+    .photo-about1{
+        width: 480px;
+        margin-top: 40px;
+    }
+  }
+
+  @media (max-width: 1171px) {
+    
+    .vertical-line {
+        display: none;
+    }
+  }
+
+  @media (max-width: 991px) {
+    
+    .horizontal-line {
+        display: none;
+    }
+
+    .par2, .par3{
+        margin-top: -60px;
+    }
+
+    .photo-about2{
+        display: none;
+    }
+
+    .photo-about2V2{
+        display: block;
+    }
+
+    .block-title2{
+        width: auto !important;
+    }
+
+    .about-title{
+        text-align: right;
+        font-size: 74px;
+    }
+
+    .par1{
+        text-align: justify;
+    }
+
+    .about-paragraph1{
+        font-size: 26px;
+    }
+
+    .about{
+        margin-right: 10px;
+    }
+
+    .par3{
+        padding-top: 60px;
+    }
+
+    .row-block3{
+        padding-top: 40px;
+    }
+
+    .photo-about1{
+        width: 600px;
+    }
+
+    .photo-about2V2{
+        width: 400px;
+    }
+  }
+

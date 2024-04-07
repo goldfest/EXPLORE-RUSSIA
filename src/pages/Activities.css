@@ -1,0 +1,321 @@
+.activities{
+    position: relative;
+    top: -70px;
+    padding-bottom: 50px;
+}
+
+.row-activities{
+    padding-left: 24px;
+    margin-right: 14px;
+    padding-bottom: 50px;
+}
+
+
+.activities-title{
+    font-family: 'bebas_neue_regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #9C0309;
+}
+
+.filt-activity{
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.btn {
+    margin-right: 10px; 
+}
+
+.btn:first-child {
+    margin-left: 0px; 
+}
+
+.btn-all{
+    color: white !important;
+    background-color: #000000;
+}
+
+.btn-tag {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    color: black; 
+    transition: transform 0.2s; 
+}
+
+.btn-tag:hover {
+    background-color: #1C1919; 
+    color: white; 
+}
+
+.btn-arrow {
+    color:#9C0309;
+    border: 3px solid #9C0309;
+}
+
+.buttons{
+    margin-top: 18px;
+    overflow-x: auto; 
+    white-space: nowrap; 
+}
+
+.buttons2{
+    margin-top: 18px;
+    text-align: right; 
+}
+
+
+
+  
+@media (max-width: 1035px ) {
+    .btn {
+        margin-right: 6px; 
+    }
+
+  }
+
+  @media (max-width: 900px ) {
+    .buttons2{
+        display: none;
+    }
+    .buttons {
+        width: 100%;
+    }
+
+    .activities-title{
+        font-size: 64px;
+        line-height: 73px;
+    }
+
+    .filt-activity{
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+  }
+
+  .card-img, .card{
+    border-radius: 15px;
+    border: none;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 20px;
+  }
+  
+  .city-activity{
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 4px 12px;
+    background: #9C0309;
+    border-radius: 15px;
+
+  }
+
+
+.btn-arrow1 {
+    color:white;
+    border: 2px solid white;
+    position: absolute;
+    top: 10px;
+    right: 75px;
+}
+
+.btn-arrow2 {
+    color:white;
+    border: 2px solid white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.name-activity{
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 5px 12px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.date-activity{
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 3px 12px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.name-activity-bottom{
+    margin-bottom: 15px;
+}
+
+.popup {
+    position: absolute;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #D9D9D91A;
+    backdrop-filter: blur(10px);
+    transition: height 0.3s ease;
+    z-index: 2;
+}
+
+.cloud{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    background: white;
+    border-radius: 15px 15px 0px 15px;
+    z-index: 3;
+    display: none;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 120px;
+}
+
+.card:hover .animation-up{
+    bottom: 71%; 
+}
+
+.photos-activity{
+    display: none;
+}
+
+.card:hover .cloud, .card:hover .photos-activity {
+    display: block; 
+}
+
+.card:hover .popup {
+    bottom: 0; 
+    height: 80%;
+    display: block;
+}
+
+.animation-up{
+    position: absolute;
+    bottom: 60px;
+    left: 13px;
+    transition: 0.3s ease;
+}
+
+.card-img {
+    position: relative;
+    z-index: 1; 
+}
+
+.card-img-overlay {
+    z-index: 3; 
+}
+
+.card{
+    overflow: hidden;
+}
+
+.paragraph-activity{
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.photo-in-blur1{
+    margin-top: 100px;
+ }
+
+ .photo-in-blur2{
+    margin-top: -100px;
+    margin-left: 80px;
+ }
+
+@media (max-width: 1545px ) {
+    .photo-in-blur2{
+        margin-left: 40px !important;
+     }
+  } 
+
+@media (max-width: 1492px ) {
+    .cloud{
+        margin-top: 80px;
+    }
+  }
+
+  @media (max-width: 1425px ) {
+    .paragraph-activity{
+        font-size: 10px;
+    }
+
+    .photo-in-blur1{
+        margin-top: 70px !important;
+     }
+  }
+
+@media (max-width: 1388px ) {
+    .photo-activity{
+        width: 250px;
+    }
+    .photos-activity{
+        padding-left: 50px;
+    }
+    .paragr-2{
+        display: none;
+    }
+  }
+  @media (max-width: 991px ) {
+    .cloud{
+        margin-top: 100px;
+    }
+    .paragraph-activity{
+        font-size: 16px;
+    }
+  }
+
+  @media (max-width: 1200px ) {
+    .photos-activity{
+        display: none !important;
+    }
+    .paragr-2{
+        display: block;
+    }
+  }
