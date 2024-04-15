@@ -29,7 +29,7 @@ const Attractions = () => {
                         </a>
                     </p>
                     <div className='row row-attractions mb-3'>
-                        <div className='col-xl-3 col-lg-3 col-sm-6 mb-4'>
+                        <div className='col-xl-3 col-lg-4 col-sm-6 mb-4'>
 
                             <div className="card card-attraction">
                                 <img src={Photo1} className="card-img card-img-attraction" alt="..." />
@@ -42,7 +42,7 @@ const Attractions = () => {
                             </div>
                         </div>
 
-                        <div className='col-xl-3 col-lg-3 col-sm-6'>
+                        <div className='col-xl-3 col-lg-4 col-sm-6'>
                             <div className="card card-attraction">
                                 <img src={Photo2} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
@@ -54,7 +54,7 @@ const Attractions = () => {
                             </div>
                         </div>
 
-                        <div className='col-xl-3 col-lg-3 col-sm-6'>
+                        <div className='col-xl-3 col-lg-4 col-sm-6'>
                             <div className="card card-attraction">
                                 <img src={Photo3} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
@@ -66,7 +66,7 @@ const Attractions = () => {
                             </div>
                         </div>
 
-                        <div className='col-xl-3 col-lg-3 col-sm-6'>
+                        <div className='col-xl-3 col-lg-4 col-sm-6'>
                             <div className="card card-attraction">
                                 <img src={Photo4} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
@@ -77,7 +77,7 @@ const Attractions = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-xl-3 col-lg-3 col-sm-6'>
+                        <div className='col-xl-3 col-lg-4 col-sm-6'>
                             <div className="card card-attraction">
                                 <img src={Photo5} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
@@ -88,7 +88,7 @@ const Attractions = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-xl-3 col-lg-3 col-sm-6'>
+                        <div className='col-xl-3 col-lg-4 col-sm-6'>
                             <div className="card card-attraction">
                                 <img src={Photo6} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
@@ -99,7 +99,7 @@ const Attractions = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-xl-3 col-lg-3 col-sm-6'>
+                        <div className='col-xl-3 col-lg-4 col-sm-6'>
                             <div className="card card-attraction">
                                 <img src={Photo7} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
@@ -110,7 +110,7 @@ const Attractions = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-xl-3 col-lg-3 col-sm-6'>
+                        <div className='col-xl-3 col-lg-4 col-sm-6'>
                             <div className="card card-attraction">
                                 <img src={Photo8} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
