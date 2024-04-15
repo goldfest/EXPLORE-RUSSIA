@@ -1,0 +1,105 @@
+.nav-link-city {
+  font-family: 'bebas_neue_regular';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: black;
+}
+
+
+.back-photo {
+  filter: invert(100%);
+  margin-top: 5px;
+  mix-blend-mode: difference;
+  margin-left: -3px;
+}
+
+.blend-mode {
+  mix-blend-mode: difference;
+  position: absolute;
+  color: black;
+  margin-left: -13px;
+}
+
+  .firstBlock-city {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 0px; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .firstBlock-city .row {
+    width: 100%; 
+    max-width: 1200px; 
+  }
+  
+  .ulyanovsk {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+.LocalTime-cities{
+  position: absolute;
+  text-align: center; 
+  max-width: 100%; 
+  white-space: nowrap; 
+  margin-left: -280px;
+  margin-top: -15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 24px;
+  font-family: 'BaruSansDemo-Regular';
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: -0.01em;
+}
+
+.title-city-page{
+  font-family: 'BaruSansDemo-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: -20px;
+  margin-left: -15px;
+}
+
+.city-text-in{
+  font-family: 'bebas_neue_regular';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 146px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.text-city1{
+  left: -10px;
+}
+
+.text-city2{
+  right: -25px;
+  margin-top: 260px;
+}
+
+
+@media (min-width: 1600px) {
+  .firstBlock-city .row {
+    width: 100%; 
+    max-width: 1400px; 
+  }
+  .ulyanovsk {
+    width: 1400px; 
+    height: auto; 
+  }
+}
+

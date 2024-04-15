@@ -8,7 +8,7 @@ const Footer = () => {
         }
       };
     return (
-        <footer className="text-center">
+        <footer className="text-center footer">
             <section className="footer-eng">
                 <div className="container-fluid text-center text-md-start mt-3 pt-3">
                     <p>

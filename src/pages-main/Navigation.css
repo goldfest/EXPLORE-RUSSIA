@@ -1,13 +1,13 @@
 @font-face {
   font-family: "BaruSansDemo-Regular";  
-  src: url("../../fonts/BaruSansDemo-Regular.ttf") format("truetype"); 
+  src: url("../fonts/BaruSansDemo-Regular.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal;
 }
 
 @font-face {
   font-family: "bebas_neue_regular";  
-  src: url("../../fonts/bebas_neue_regular.ttf") format("truetype"); 
+  src: url("../fonts/bebas_neue_regular.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal;
 }
@@ -297,5 +297,9 @@
     top: 260px !important;
   }
   
+}
+
+a {
+  text-decoration: none;
 }
 

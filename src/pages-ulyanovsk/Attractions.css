@@ -1,0 +1,85 @@
+.attractions{
+    position: relative;
+    top: 0px;
+}
+
+.attractions-block{
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.attractions-title{
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.attractions-paragraph{
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: black;
+}
+
+.row-attractions{
+    padding-top: 120px;
+}
+
+.card-img-attraction{
+    margin: 15px;
+    margin-bottom: 5px;
+}
+
+.card-attraction{
+    background-color: black;
+}
+
+.card-text-attraction{
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.attraction-up{
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    left: 13px;
+    transition: 0.3s ease;
+}
+
+.attraction-button{
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    padding: 10px !important;
+    background-color: #9C0309;
+    transition: 1s;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.attraction-button:hover{
+    background-color: #bd0f15;
+    scale: 1.1;
+}

@@ -1,0 +1,200 @@
+.place-block{
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.places{
+    position: relative;
+    background-color: black;
+    top: 0px;
+    z-index: 0;
+}
+
+.place-title{
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.title-par-place1{
+    padding-top: 50px;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+.title-par-place2{
+    padding-top: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.place-paragraph{
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.horizontal-line-place {
+    position: relative;
+    height: 1px; 
+    background-color: white; 
+  }
+  
+  .horizontal-line-place::before,
+  .horizontal-line-place::after {
+    content: "";
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%; 
+    background-color: white; 
+    top: 50%; 
+    transform: translateY(-50%);
+  }
+  
+  .horizontal-line-place::before {
+    left: 0; 
+  }
+  
+  .horizontal-line-place::after {
+    right: 0; 
+  }
+
+  .container-places {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+
+    line-height: 0;
+  }
+  
+  .box > img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+    filter: grayscale(100%);
+  }
+  
+  .box > p {
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    display: block;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    margin-left: 20px !important;
+}
+  .box > .obvodka1 {
+    position: absolute;
+    margin-top: -215px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    letter-spacing: 0.02em;
+}
+
+.box > .obvodka2 {
+    position: absolute;
+    margin-top: -180px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    
+}
+
+.box > .obvodka3 {
+    position: absolute;
+    margin-top: -120px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: -0.01em;
+}
+
+.obvodka3{
+    width: 500px;
+}
+
+.box:hover > p {
+    opacity: 1; 
+}
+  
+  .box:hover { 
+    flex: 1 1 50%;
+
+}
+  .box:hover > img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(0%);
+  }
+
+  .place-text1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .card-place{
+    background-color: black;
+  }
+
+  .row-place{
+    padding-top: 70px;
+  }
+
+  .btn-ticket {
+    padding: 14px 25px !important;
+    background: #FFD600;
+    border-radius: 25px;
+    color:white;
+    border: none !important;
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    
+}
+.ticket-up{
+    transition: 0.3s ease;
+    position: absolute;
+    bottom: 60px !important;
+    right: 10px !important;
+}
+.card:hover .ticket-up{
+    bottom: 71% !important; 
+}

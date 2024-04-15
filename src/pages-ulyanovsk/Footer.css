@@ -1,8 +1,8 @@
-footer{
+.footer-city{
     background-color: #9C0309 !important;
-    margin-bottom: -200px;
+    margin-bottom: -100px !important; 
     height: 300px;
-    margin-top: -136px;
+    margin-top: -17px;
   }
   .text-footer1{
     font-family: 'BaruSansDemo-Regular';

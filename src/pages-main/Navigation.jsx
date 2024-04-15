@@ -2,9 +2,9 @@ import {
  Nav, Navbar,
 } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/лого.png';
-import Slide1 from '../../assets/1slide.png';
-import Slide2 from '../../assets/2slide.png';
+import Logo from '../assets/лого.png';
+import Slide1 from '../assets/1slide.png';
+import Slide2 from '../assets/2slide.png';
 import './Navigation.css';
 
 const Navigation = () => {
@@ -18,26 +18,26 @@ const Navigation = () => {
       <>
         <header className='header container-fluid'>
           <Navbar expand="lg" sticky="top">
-            <Navbar.Brand onClick={() => scrollToSection('main')} className='logo' as={Link} to="main">
+            <Navbar.Brand onClick={() => scrollToSection('main')} className='logo' as={Link} to="MainPage">
                 <img className="brand" src={Logo} alt="Logo" />
             </Navbar.Brand>
             <div className='container-fluid'>
               <Navbar.Toggle aria-controls="navbarResponsive" className='' />
               <Navbar.Collapse id="navbarResponsive">
                 <Nav className="mx-auto mt-xxl-2 justify-content-center">
-                  <Nav.Link onClick={() => scrollToSection('main')} as={Link} to="main" className="nav-link px-4">
+                  <Nav.Link onClick={() => scrollToSection('main')} className="nav-link px-4">
                     HOME
                   </Nav.Link>
-                  <Nav.Link onClick={() => scrollToSection('about')} as={Link} to="about" className="nav-link px-4">
+                  <Nav.Link onClick={() => scrollToSection('about')} className="nav-link px-4">
                     ABOUT
                   </Nav.Link>
-                  <Nav.Link onClick={() => scrollToSection('start')} as={Link} to="start" className="nav-link px-4">
+                  <Nav.Link onClick={() => scrollToSection('start')} className="nav-link px-4">
                     START
                   </Nav.Link>
-                  <Nav.Link onClick={() => scrollToSection('activities')} as={Link} to="activities" className="nav-link px-4">
+                  <Nav.Link onClick={() => scrollToSection('activities')} className="nav-link px-4">
                     ACTIVITIES
                   </Nav.Link>
-                  <Nav.Link onClick={() => scrollToSection('contacts')} as={Link} to="contacts" className="nav-link px-4">
+                  <Nav.Link onClick={() => scrollToSection('contacts')} className="nav-link px-4">
                     CONTACTS
                   </Nav.Link>
                 </Nav>
