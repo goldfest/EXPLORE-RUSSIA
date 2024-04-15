@@ -104,11 +104,17 @@ const Places = () => {
                                 <img src={Photo5} className="card-img" alt="..." />
                                 <div className="card-img-overlay">
                                     <a className='city-activity'>Ulyanovsk</a>
-                                    <button className="btn btn-tag btn-rounded btn-arrow1">
-                                        &#8592;
+                                    <button className="true-arrow btn-arrow1" /*onClick={handleMoveLeft}*/>
+                                        <svg className='hov' width="60" height="40" viewBox="0 0 45 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect className='str' x="1.00088" y="1" width="42.9073" height="22" rx="11" transform="matrix(1 0 0.000880529 1 0.0499007 0.0971683)" stroke="white" strokeWidth="2"/>
+                                            <path d="M11.8073 11.3901C11.4171 11.7806 11.4177 12.4137 11.8085 12.8043L18.1781 19.1682C18.569 19.5588 19.2021 19.5588 19.5923 19.1682C19.9825 18.7777 19.9819 18.1445 19.5911 17.754L13.9292 12.0972L19.5811 6.44031C19.9713 6.04979 19.9707 5.41663 19.5799 5.0261C19.189 4.63558 18.5558 4.63558 18.1656 5.0261L11.8073 11.3901ZM32.5141 11.0972L12.5141 11.0972L12.5159 13.0972L32.5159 13.0972L32.5141 11.0972Z" fill="white"/>
+                                        </svg>
                                     </button>
-                                    <button className="btn btn-tag btn-rounded btn-arrow2">
-                                        &#8594;
+                                    <button className="true-arrow btn-arrow2" /*onClick={handleMoveLeft}*/>
+                                        <svg className='hov' width="60" height="40" viewBox="0 0 46 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect className='str' x="-1.00517" y="-0.995671" width="42.9073" height="22" rx="11" transform="matrix(-0.999991 0.00431519 -0.00517615 -0.999987 43.9845 22.7037)" stroke="white" strokeWidth="2"/>
+                                            <path d="M34.1951 13.4486C34.5836 13.0563 34.5803 12.4232 34.1878 12.0344L27.7909 5.69794C27.3984 5.30911 26.7652 5.31184 26.3767 5.70405C25.9882 6.09625 25.9915 6.72941 26.3841 7.11824L32.0701 12.7506L26.4426 18.4318C26.0541 18.824 26.0574 19.4572 26.4499 19.846C26.8425 20.2348 27.4756 20.2321 27.8641 19.8399L34.1951 13.4486ZM13.4897 13.8308L33.4895 13.7445L33.4792 11.7445L13.4794 11.8308L13.4897 13.8308Z" fill="white"/>
+                                        </svg>
                                     </button>
                                     <div className='ticket-up'>
                                         <button className="btn btn-tag btn-rounded btn-ticket">
@@ -132,11 +138,17 @@ const Places = () => {
                                 <img src={Photo6} className="card-img" alt="..." />
                                 <div className="card-img-overlay">
                                     <a className='city-activity'>Ulyanovsk</a>
-                                    <button className="btn btn-tag btn-rounded btn-arrow1" >
-                                        &#8592;
+                                    <button className="true-arrow btn-arrow1" /*onClick={handleMoveLeft}*/>
+                                        <svg className='hov' width="60" height="40" viewBox="0 0 45 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect className='str' x="1.00088" y="1" width="42.9073" height="22" rx="11" transform="matrix(1 0 0.000880529 1 0.0499007 0.0971683)" stroke="white" strokeWidth="2"/>
+                                            <path d="M11.8073 11.3901C11.4171 11.7806 11.4177 12.4137 11.8085 12.8043L18.1781 19.1682C18.569 19.5588 19.2021 19.5588 19.5923 19.1682C19.9825 18.7777 19.9819 18.1445 19.5911 17.754L13.9292 12.0972L19.5811 6.44031C19.9713 6.04979 19.9707 5.41663 19.5799 5.0261C19.189 4.63558 18.5558 4.63558 18.1656 5.0261L11.8073 11.3901ZM32.5141 11.0972L12.5141 11.0972L12.5159 13.0972L32.5159 13.0972L32.5141 11.0972Z" fill="white"/>
+                                        </svg>
                                     </button>
-                                    <button className="btn btn-tag btn-rounded btn-arrow2" >
-                                        &#8594;
+                                    <button className="true-arrow btn-arrow2" /*onClick={handleMoveLeft}*/>
+                                        <svg className='hov' width="60" height="40" viewBox="0 0 46 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect className='str' x="-1.00517" y="-0.995671" width="42.9073" height="22" rx="11" transform="matrix(-0.999991 0.00431519 -0.00517615 -0.999987 43.9845 22.7037)" stroke="white" strokeWidth="2"/>
+                                            <path d="M34.1951 13.4486C34.5836 13.0563 34.5803 12.4232 34.1878 12.0344L27.7909 5.69794C27.3984 5.30911 26.7652 5.31184 26.3767 5.70405C25.9882 6.09625 25.9915 6.72941 26.3841 7.11824L32.0701 12.7506L26.4426 18.4318C26.0541 18.824 26.0574 19.4572 26.4499 19.846C26.8425 20.2348 27.4756 20.2321 27.8641 19.8399L34.1951 13.4486ZM13.4897 13.8308L33.4895 13.7445L33.4792 11.7445L13.4794 11.8308L13.4897 13.8308Z" fill="white"/>
+                                        </svg>
                                     </button>
                                     <div className='ticket-up'>
                                         <button className="btn btn-tag btn-rounded btn-ticket">
