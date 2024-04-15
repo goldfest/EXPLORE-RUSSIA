@@ -75,7 +75,6 @@
 
 .about-paragraph1{
     position: relative;
-
     height: 167px;
     margin-left: 378px;
     text-decoration: none;
@@ -250,4 +249,28 @@
         width: 400px;
     }
   }
+  
+  @media (max-width: 615px) {
 
+    .photo-about1{
+        width: 500px;
+    }
+
+    .photo-about2V2{
+        width: 500px !important;
+    }
+  }
+
+  @media (max-width: 535px) {
+
+    .photo-about1{
+        width: 400px;
+    }
+
+    .photo-about2V2{
+        width: 400px !important;
+    }
+    .about-paragraph1{
+        margin-left: 168px;
+    }
+  }

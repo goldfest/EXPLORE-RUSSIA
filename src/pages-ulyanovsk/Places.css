@@ -187,7 +187,6 @@
     font-size: 18px;
     line-height: 20px;
     color: #000000;
-    
 }
 .ticket-up{
     transition: 0.3s ease;
@@ -198,3 +197,82 @@
 .card:hover .ticket-up{
     bottom: 71% !important; 
 }
+
+@media (max-width: 1160px ) {
+  .btn-ticket {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 10px !important;
+  }
+  .ticket-up{
+    bottom: 80px !important;
+    right: 10px !important;
+}
+.card:hover .ticket-up{
+  bottom: 76% !important; 
+}
+}
+
+@media (max-width: 991px ) {
+  .btn-ticket {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 14px 25px !important;
+  }
+  .ticket-up{
+    bottom: 60px ;
+    right: 10px !important;
+}
+.card:hover .ticket-up{
+  bottom: 71% !important; 
+}
+}
+
+@media (max-width: 945px ) {
+  .obvodka3{
+    width: 300px;
+}
+
+.box > .obvodka1 {
+  margin-top: -265px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.box > .obvodka2 {
+  margin-top: -230px;
+  font-size: 24px;
+  
+}
+
+.box > .obvodka3 {
+  margin-top: -170px;
+  font-size: 16px;
+}
+
+.title-par-place1{
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+.title-par-place2{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+}
+
+@media (max-width: 1150px ) {
+
+.title-par-place1{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.title-par-place2{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+}
+

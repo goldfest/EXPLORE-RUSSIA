@@ -35,13 +35,9 @@ const Attractions = () => {
                                 <img src={Photo1} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
                                     <p className="card-text card-text-attraction">Monument to the letter "Y"</p>
-                                </div>
-                                <div className="card-img-overlay">
-                                    <div className='attraction-up'>
-                                        <div className='name-activity-bottom'>
-                                            <a className='name-activity'>International exhibition and forum "Russia"</a>
-                                        </div>
-                                    </div>
+                                    <Button variant="primary" type="submit" className='attraction-card-button'>
+                                    Learn more
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -51,13 +47,9 @@ const Attractions = () => {
                                 <img src={Photo2} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
                                     <p className="card-text card-text-attraction">Monument to Dmitry Razumovsky</p>
-                                </div>
-                                <div className="card-img-overlay">
-                                    <div className='attraction-up'>
-                                        <div className='name-activity-bottom'>
-                                            <a className='name-activity'>Punk culture. King and the Clown</a>
-                                        </div>
-                                    </div>
+                                    <Button variant="primary" type="submit" className='attraction-card-button'>
+                                    Learn more
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -67,13 +59,9 @@ const Attractions = () => {
                                 <img src={Photo3} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
                                     <p className="card-text card-text-attraction">Monument to Bogdan Khitrovo</p>
-                                </div>
-                                <div className="card-img-overlay">
-                                    <div className='attraction-up'>
-                                        <div className='name-activity-bottom'>
-                                            <a className='name-activity'>Punk culture. King and the Clown</a>
-                                        </div>
-                                    </div>
+                                    <Button variant="primary" type="submit" className='attraction-card-button'>
+                                    Learn more
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -83,13 +71,9 @@ const Attractions = () => {
                                 <img src={Photo4} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
                                     <p className="card-text card-text-attraction">Monument to the letter "Y"</p>
-                                </div>
-                                <div className="card-img-overlay">
-                                    <div className='attraction-up'>
-                                        <div className='name-activity-bottom'>
-                                            <a className='name-activity'>Digital art exhibition Nur Now</a>
-                                        </div>
-                                    </div>
+                                    <Button variant="primary" type="submit" className='attraction-card-button'>
+                                    Learn more
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -98,13 +82,9 @@ const Attractions = () => {
                                 <img src={Photo5} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
                                     <p className="card-text card-text-attraction">Museum A.A. Plastova</p>
-                                </div>
-                                <div className="card-img-overlay">
-                                    <div className='attraction-up'>
-                                        <div className='name-activity-bottom'>
-                                            <a className='name-activity'>Digital art exhibition Nur Now</a>
-                                        </div>
-                                    </div>
+                                    <Button variant="primary" type="submit" className='attraction-card-button'>
+                                    Learn more
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -113,13 +93,9 @@ const Attractions = () => {
                                 <img src={Photo6} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
                                     <p className="card-text card-text-attraction">Memorial Museum</p>
-                                </div>
-                                <div className="card-img-overlay">
-                                    <div className='attraction-up'>
-                                        <div className='name-activity-bottom'>
-                                            <a className='name-activity'>Digital art exhibition Nur Now</a>
-                                        </div>
-                                    </div>
+                                    <Button variant="primary" type="submit" className='attraction-card-button'>
+                                    Learn more
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -128,13 +104,9 @@ const Attractions = () => {
                                 <img src={Photo7} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
                                     <p className="card-text card-text-attraction">Spaso-Voznesensky Cathedral</p>
-                                </div>
-                                <div className="card-img-overlay">
-                                    <div className='attraction-up'>
-                                        <div className='name-activity-bottom'>
-                                            <a className='name-activity'>Digital art exhibition Nur Now</a>
-                                        </div>
-                                    </div>
+                                    <Button variant="primary" type="submit" className='attraction-card-button'>
+                                    Learn more
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -143,13 +115,9 @@ const Attractions = () => {
                                 <img src={Photo8} className="card-img card-img-attraction" alt="..." />
                                 <div className="card-body">
                                     <p className="card-text card-text-attraction">Water park "Ulet"</p>
-                                </div>
-                                <div className="card-img-overlay">
-                                    <div className='attraction-up'>
-                                        <div className='name-activity-bottom'>
-                                            <a className='name-activity'>Digital art exhibition Nur Now</a>
-                                        </div>
-                                    </div>
+                                    <Button variant="primary" type="submit" className='attraction-card-button'>
+                                    Learn more
+                                    </Button>
                                 </div>
                             </div>
                         </div>

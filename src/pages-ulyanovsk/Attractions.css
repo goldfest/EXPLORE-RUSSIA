@@ -40,10 +40,6 @@
     margin-bottom: 5px;
 }
 
-.card-attraction{
-    background-color: black;
-}
-
 .card-text-attraction{
     font-family: 'BaruSansDemo-Regular';
     font-style: normal;
@@ -53,6 +49,7 @@
     text-align: justify;
     letter-spacing: -0.01em;
     color: #FFFFFF;
+    transition: all 0.5s;
 }
 
 .attraction-up{
@@ -82,4 +79,56 @@
 .attraction-button:hover{
     background-color: #bd0f15;
     scale: 1.1;
+}
+
+.attraction-card-button{
+    padding: 4px 20px;
+    background: #FFD600;
+    border-radius: 25px;
+    border: none;
+    font-family: 'BaruSansDemo-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    width: 100%;
+    opacity: 0; 
+    transform: translateY(-100%); /* смещаем кнопку вниз на 100% от ее высоты */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transition: all 0.5s;
+}
+
+.attraction-card-button:hover{
+    background: #d1ae01;
+    color: #000000;
+}
+
+.card-attraction{
+    background-color: black;
+    margin-bottom: 50px;
+    transition: all 0.5s;
+}
+
+.card-body{
+    margin-bottom: -50px !important;
+    transition: all 0.5s;
+}
+
+.card-attraction:hover .attraction-card-button{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.card-attraction:hover{
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+.card-attraction:hover .card-text-attraction{
+    color: black;
+}
+
+.card-attraction:hover .card-body{
+    margin-bottom: 0px !important;
 }

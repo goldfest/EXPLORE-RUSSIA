@@ -38,7 +38,7 @@ const About = () => {
                         <div className='col-xl-2 col-lg-2 col-sm-4'>
                             <p className='block-title2'>Discover Russia's Treasures</p>
                         </div>
-                        <div className='col-xl-4 col-lg-4 col-sm-8'>
+                        <div className='col-xl-4 col-lg-4 col-sm-8 mb-5'>
                             <p className='par3'>
                                 <a className='about-paragraph3'>Russia boasts a wealth of iconic landmarks and hidden gems waiting to be uncovered. From the grandeur of Moscow's Red Square to the serene beauty of Lake Baikal, there's something here to enchant every traveler. Explore the majestic palaces of St. Petersburg, wander through the ancient streets of Kazan, or marvel at the architectural wonders of the Golden Ring cities. Whether you're drawn to history, art, nature, or cuisine, Russia has it all.</a>
                             </p>

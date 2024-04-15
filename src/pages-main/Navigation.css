@@ -303,3 +303,46 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 680px) {
+  .logo{
+    margin-left: 0px;
+  }
+
+  .carousel-header1 {
+    font-size: 96px !important;
+    line-height: 108px;
+
+  }
+  .carousel-header2 {
+    font-size: 96px !important;
+    line-height: 108px;
+  }
+
+  .text-paragraph{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 580px) {
+
+  .carousel-header1 {
+    font-size: 76px !important;
+    line-height: 78px;
+
+  }
+  .carousel-header2 {
+    font-size: 76px !important;
+    line-height: 78px;
+  }
+
+  .text-paragraph{
+    font-size: 14px;
+  }
+  .carousel-text{
+    top: 250px !important;
+  }
+  .start{
+    top: 240px !important;
+  }
+}
+
