@@ -1,6 +1,20 @@
+import { useState, useEffect } from 'react';
+
 import './Footer.css';
 
 const Footer = () => {
+    const [UlyanovskTime, setMoscowTime] = useState('');
+
+    useEffect(() => {
+      const interval = setInterval(() => {
+        const currentTime = new Date().toLocaleTimeString('en-US', {
+          timeZone: 'Europe/Samara', hour: '2-digit', minute: '2-digit', hour12: true,
+  });
+        setMoscowTime(currentTime);
+      }, 1000); // Обновляем время каждую секунду
+
+      return () => clearInterval(interval);
+    }, []);
     return (
         <footer className="text-center footer-city">
             <section className="footer-eng-city">
@@ -15,7 +29,7 @@ const Footer = () => {
                     </div>
                     <div className="blok-last1">
                         <p>
-                            <a className="text-reset text-footer4">11:21 PM</a>
+                            <a className="text-reset text-footer4">{UlyanovskTime}</a>
                         </p>
                         <a className="text-reset text-footer4">Ulyanovsk, Russia</a>
                     </div>

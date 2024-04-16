@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {
  Nav, Navbar,
 } from 'react-bootstrap';
@@ -20,6 +20,18 @@ const Navigation = () => {
       section.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  const [moscowTime, setMoscowTime] = useState('');
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const currentTime = new Date().toLocaleTimeString('en-US', {
+        timeZone: 'Europe/Moscow', hour: '2-digit', minute: '2-digit', hour12: true,
+});
+      setMoscowTime(currentTime);
+    }, 1000); // Обновляем время каждую секунду
+
+    return () => clearInterval(interval);
+  }, []);
     return (
       <>
         <header className='header container-fluid'>
@@ -49,7 +61,7 @@ const Navigation = () => {
                 </Nav>
                 <Nav className="ml-lg-auto mt-xxl-2">
                   <div className="LocalTime nav-link px-4">
-                    11:21 PM Moscow, Russia
+                  {moscowTime} Moscow, Russia
                   </div>
                 </Nav>
               </Navbar.Collapse>

@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import {
   Nav, Navbar,
  } from 'react-bootstrap';
@@ -7,6 +8,18 @@ import {
  import './Navigation.css';
 
  const NavigationCity = () => {
+  const [UlyanovskTime, setMoscowTime] = useState('');
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const currentTime = new Date().toLocaleTimeString('en-US', {
+        timeZone: 'Europe/Samara', hour: '2-digit', minute: '2-digit', hour12: true,
+});
+      setMoscowTime(currentTime);
+    }, 1000); // Обновляем время каждую секунду
+
+    return () => clearInterval(interval);
+  }, []);
      return (
        <>
          <header className='header container-fluid'>
@@ -41,7 +54,7 @@ import {
                  </div>
                  <div className=" mt-2">
                    <div className="LocalTime-cities nav-link-city px-4">
-                     11:21 PM Ulyanovsk, Russia
+                   {UlyanovskTime} Ulyanovsk, Russia
                    </div>
                  </div>
              </div>
