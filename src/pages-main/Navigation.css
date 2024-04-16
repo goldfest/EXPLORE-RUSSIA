@@ -299,6 +299,9 @@
   .slyde-photo{
     height: 628px; 
   }
+  .navbar-resp{
+    padding-bottom: 220px !important;
+}
 
   .carousel-text{
     top: 300px !important;

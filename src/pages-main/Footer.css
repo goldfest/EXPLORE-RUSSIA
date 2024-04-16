@@ -12,6 +12,7 @@
     line-height: 63px;
     letter-spacing: 0.01em;
     text-transform: uppercase;
+    color: #000000;
     text-decoration: none;
     padding-left: 27px;
     width: 10px;
@@ -23,13 +24,14 @@
 
   .text-footer2{
     font-family: 'bebas_neue_regular';
-    font-style: normal;
+    font-style: medium !important;
+    margin-bottom: 3px !important;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 20px !important;
+    line-height: 28px !important;
     text-align: justify;
     letter-spacing: 0.01em;
-    color: rgb(229, 181, 181) !important;
+    color: #000000;
     text-decoration: none;
   }
 
@@ -51,6 +53,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 22px;
+    color: #000000;
     letter-spacing: 0.01em;
     text-decoration: none;
   }
@@ -61,7 +64,7 @@
     font-size: 16px;
     line-height: 18px;
     text-align: right;
-    color: rgb(229, 181, 181) !important;
+    color: #000000;
     letter-spacing: 0.01em;
     text-decoration: none;
   }
@@ -97,4 +100,58 @@
 
   .blok-last2 p {
     margin: 0;
+  }
+
+  .txt{
+    display: none;
+  }
+
+  @media (max-width: 992px){
+    .blok1{
+      display: none;
+    }
+
+    .txt{
+      display: block;
+    }
+  
+  
+    .blok3{
+      display: none;
+    }
+
+    .text-footer3{
+      font-size: 25px !important;
+      line-height: 35px !important;
+    }
+
+    .row-bloks{
+      margin-top: 180px !important;
+      margin-left: -350px !important;
+    }
+    .blok-last1 {
+      margin-top: -258px !important;
+    }
+    .footer{
+      margin-bottom: 0px;
+      height: 400px;
+      margin-top: -136px;
+    }
+  }
+  @media(max-width: 530px){
+    .text-footer1{
+      font-size: 36px !important;
+    }
+    .text-footer3{
+      font-size: 20px !important;
+      line-height: 35px !important;
+    }
+
+    .blok-last1 {
+      margin-top: 0px !important;
+    }
+
+    .footer{
+      height: 550px;
+    }
   }

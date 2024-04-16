@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <footer className="text-center footer">
             <section className="footer-eng">
-                <div className="container-fluid text-center text-md-start mt-3 pt-3">
+                <div className="container-fluid text-start mt-3 pt-3">
                     <p>
                         <a className="text-reset text-footer1">EXplore russia</a>
                     </p>
@@ -19,9 +19,9 @@ const Footer = () => {
                             <a className="text-reset text-footer2">Connect with fellow travelers, share your experiences, and glean insights from seasoned explorers in the Explore Russia community. Follow us on social media for the latest updates.</a>
                         </p>
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-3 row-bloks">
 
-                        <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-2 blok2">
+                        <div className="col-lg-3 col-xl-3 mx-auto mb-2 blok2">
                             <p>
                                 <a onClick={() => scrollToSection('main')} className="text-reset text-footer3">HOME</a>
                             </p>
@@ -31,8 +31,14 @@ const Footer = () => {
                             <p>
                                 <a onClick={() => scrollToSection('start')} className="text-reset text-footer3">START</a>
                             </p>
+                            <p>
+                                <a onClick={() => scrollToSection('activities')} className="text-reset text-footer3 txt">ACTIVITIES</a>
+                            </p>
+                            <p>
+                                <a onClick={() => scrollToSection('contacts')} className="text-reset text-footer3 txt">CONTACTS</a>
+                            </p>
                         </div>
-                        <div className="col-md-2 col-lg-2 col-xl-3 mx-auto mb-2 blok3">
+                        <div className="col-lg-2 col-xl-3 mx-auto mb-2 blok3">
                             <p>
                                 <a onClick={() => scrollToSection('activities')} className="text-reset text-footer3">ACTIVITIES</a>
                             </p>
@@ -41,7 +47,7 @@ const Footer = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="blok-last1">
+                    <div className="blok-last1 ">
                         <p>
                             <a className="text-reset text-footer4">11:21 PM</a>
                         </p>
