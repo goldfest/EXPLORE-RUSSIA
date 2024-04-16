@@ -317,6 +317,10 @@
      }
   }
 
+  .photo-activity{
+    border-radius: 16px;
+  }
+
 @media (max-width: 1388px ) {
     .photo-activity{
         width: 250px;
@@ -345,3 +349,15 @@
         display: block;
     }
   }
+
+  .photo-in-blur1-mini{
+    margin-top: 100px;
+    margin-left: -170px;
+    
+ }
+
+ .photo-in-blur2-mini{
+    margin-top: -100px;
+    margin-left: 170px;
+
+ }

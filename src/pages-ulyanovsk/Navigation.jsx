@@ -10,12 +10,12 @@ import {
      return (
        <>
          <header className='header container-fluid'>
-           <Navbar expand="lg" sticky="top">
+           <Navbar >
              <Navbar.Brand className='logo' as={Link} to="/">
                  <img className="brand" src={Logo} alt="Logo" />
              </Navbar.Brand>
              <div className='container-fluid'>
-                 <Nav className="mx-auto mt-xxl-2 justify-content-center">
+                 <div className="mx-auto mt-2 justify-content-center">
                    <Nav.Link as={Link} to="/" className="nav-link-city px-4">
                    <div className="blend-container">
                      <svg width="73" height="27" viewBox="0 0 73 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,12 +38,12 @@ import {
                      </svg>
                    </div>
                    </Nav.Link>
-                 </Nav>
-                 <Nav className="ml-lg-auto mt-xxl-2">
+                 </div>
+                 <div className=" mt-2">
                    <div className="LocalTime-cities nav-link-city px-4">
                      11:21 PM Ulyanovsk, Russia
                    </div>
-                 </Nav>
+                 </div>
              </div>
            </Navbar>
          </header>
@@ -62,9 +62,9 @@ import {
                  </div>
                </div>
              </div>
-             <div className='col-xl-6'>
+             <div className='col-md-6 col-sm-3'>
              </div>
-             <div className='col-xl-6'>
+             <div className='col-md-6 col-sm-9'>
                <p className='title-city-page'>
                Ulyanovsk is a unique city in the depths of Russia,
                which combines rich history, cultural heritage and modern life.

@@ -7,6 +7,10 @@ import Photo3 from '../assets/Places-photo3.png';
 import Photo4 from '../assets/Places-photo4.png';
 import Photo5 from '../assets/Place-photocard1.png';
 import Photo6 from '../assets/Place-photocard2.png';
+import Photo1in6 from '../assets/photo-card6-1.jfif';
+import Photo2in6 from '../assets/photo-card6-2.jfif';
+import Photo1in7 from '../assets/photo-card7-1.jfif';
+import Photo2in7 from '../assets/photo-card7-2.jfif';
 
 const Places = () => {
     return (
@@ -129,6 +133,30 @@ const Places = () => {
                                     </div>
                                 </div>
                                 <div className="popup">
+                                    <div className='row'>
+                                        <div className='col-xxl-6 col-xl-5'>
+                                            <div className='cloud'>
+                                                <p className='paragraph-activity'>
+                                                CAGMO Orchestra presents the concert program
+                                                “Soundtracksof Einaudi”, which will feature
+                                                atmospheric compositions by the famous Italian
+                                                composer Ludovico Einaudi. Bright melodies from
+                                                popular films such as “1+1”, “Black Swan”,
+                                                “This is England” and others await you. Einaudi's
+                                                soulful music will add depth and emotion to your
+                                                viewing experience of these films.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className='col-xxl-6 col-xl-7 photos-activity'>
+                                            <div className='photo-in-blur1'>
+                                                <img src={Photo1in6} className='photo-activity'/>
+                                            </div>
+                                            <div className='photo-in-blur2'>
+                                                <img src={Photo2in6} className='photo-activity'/>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -163,6 +191,16 @@ const Places = () => {
                                     </div>
                                 </div>
                                 <div className="popup">
+                                    <div className='row'>
+                                        <div className='col-12 text-center photos-activity'>
+                                            <div className='photo-in-blur1-mini'>
+                                                <img src={Photo1in7} className='photo-activity'/>
+                                            </div>
+                                            <div className='photo-in-blur2-mini'>
+                                                <img src={Photo2in7} className='photo-activity'/>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

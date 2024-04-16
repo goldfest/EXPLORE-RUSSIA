@@ -25,11 +25,11 @@
     text-wrap: nowrap;
 }
 
-.title-contact{
+.title-contact-city{
     font-family: 'BaruSansDemo-Regular';
     font-style: normal;
     font-weight: 500;
-    font-size: 156px;
+    font-size: 126px;
     line-height: 176px;
     text-transform: uppercase;
     color: #9C0309;
@@ -119,7 +119,13 @@
     }
   }
 
-  .adapt-contact{
+  @media (max-width: 1400px) {
+    .col-title{
+        margin-left: -250px;
+    }
+  }
+
+  .adapt-contact-city{
     display: none;
 }
 
@@ -127,10 +133,10 @@
     .talk-contact{
         display: none;
     }
-    .adapt-contact{
+    .adapt-contact-city{
         display: block;
     }
-    .no-adapt-contact{
+    .no-adapt-contact-city{
         display: none;
     }
 
@@ -154,7 +160,7 @@
         margin-left: -50px;
     }
 
-    .title-contact{
+    .title-contact-city{
         font-size: 126px;
         line-height: 155px;
     }

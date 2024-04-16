@@ -5,8 +5,14 @@ import Photo1 from '../assets/photo-card1.png';
 import Photo1in1 from '../assets/photo-card1-1.png';
 import Photo2in1 from '../assets/photo-card1-2.png';
 import Photo2 from '../assets/photo-card2.png';
+import Photo1in2 from '../assets/photo-card2-1.jfif';
+import Photo2in2 from '../assets/photo-card2-2.jfif';
 import Photo3 from '../assets/photo-card3.png';
+import Photo1in3 from '../assets/photo-card3-1.jfif';
+import Photo2in3 from '../assets/photo-card3-2.jfif';
 import Photo4 from '../assets/photo-card4.png';
+import Photo1in4 from '../assets/photo-card4-1.jfif';
+import Photo2in4 from '../assets/photo-card4-2.jfif';
 
 const About = () => {
     const [offset, setOffset] = useState(0);
@@ -202,6 +208,16 @@ const About = () => {
                                     </div>
                                 </div>
                                 <div className="popup">
+                                    <div className='row'>
+                                        <div className='col-12 text-center photos-activity'>
+                                            <div className='photo-in-blur1-mini'>
+                                                <img src={Photo1in2} className='photo-activity'/>
+                                            </div>
+                                            <div className='photo-in-blur2-mini'>
+                                                <img src={Photo2in2} className='photo-activity'/>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -231,6 +247,16 @@ const About = () => {
                                     </div>
                                 </div>
                                 <div className="popup">
+                                    <div className='row'>
+                                        <div className='col-12 text-center photos-activity'>
+                                            <div className='photo-in-blur1-mini'>
+                                                <img src={Photo1in3} className='photo-activity'/>
+                                            </div>
+                                            <div className='photo-in-blur2-mini'>
+                                                <img src={Photo2in3} className='photo-activity'/>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -260,6 +286,34 @@ const About = () => {
                                     </div>
                                 </div>
                                 <div className="popup">
+                                    <div className='row'>
+                                        <div className='col-xxl-6 col-xl-5'>
+                                            <div className='cloud'>
+                                                <p className='paragraph-activity'>
+                                                Digital art exhibition Nur Now is a unique
+                                                event that combines digital art and modern
+                                                technology. The exhibition takes place in Kazan
+                                                and will last from March 22 to March 31, 2024.
+                                                </p>
+                                                <p className='paragraph-activity paragr-2'>
+                                                The exhibition features more than 140 works by
+                                                artists working with various media, including 3D
+                                                technologies and neural networks. All works of art
+                                                reflect the trends of modern visual language and are
+                                                created to demonstrate reality through digital art.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className='col-xxl-6 col-xl-7 photos-activity'>
+                                            <div className='photo-in-blur1'>
+                                                <img src={Photo1in4} className='photo-activity'/>
+                                            </div>
+                                            <div className='photo-in-blur2'>
+                                                <img src={Photo2in4} className='photo-activity'/>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

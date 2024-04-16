@@ -4,16 +4,16 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Start.css';
 import SaintPetersburgPhoto from '../assets/start-photo1.png';
-import MoscowPhoto from '../assets/start-photo1.png';
-import KazanPhoto from '../assets/start-photo1.png';
-import NovgorodPhoto from '../assets/start-photo1.png';
-import YaroslavlPhoto from '../assets/start-photo1.png';
-import SuzdalPhoto from '../assets/start-photo1.png';
-import VladimirPhoto from '../assets/start-photo1.png';
-import IrkutskPhoto from '../assets/start-photo1.png';
-import VolgogradPhoto from '../assets/start-photo1.png';
-import SochiPhoto from '../assets/start-photo1.png';
-import UluanovskPhoto from '../assets/start-photo1.png';
+import MoscowPhoto from '../assets/start-photo2.jfif';
+import KazanPhoto from '../assets/start-photo3.jfif';
+import NovgorodPhoto from '../assets/start-photo4.jfif';
+import YaroslavlPhoto from '../assets/start-photo5.jfif';
+import SuzdalPhoto from '../assets/start-photo6.jfif';
+import VladimirPhoto from '../assets/start-photo7.jfif';
+import IrkutskPhoto from '../assets/start-photo8.jfif';
+import VolgogradPhoto from '../assets/start-photo9.jfif';
+import SochiPhoto from '../assets/start-photo10.jfif';
+import UluanovskPhoto from '../assets/start-photo11.jfif';
 
 const Start = () => {
     const scrollToTop = () => {

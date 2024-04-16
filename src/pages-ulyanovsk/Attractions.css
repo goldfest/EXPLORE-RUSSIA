@@ -133,3 +133,39 @@
 .card-attraction:hover .card-body{
     margin-bottom: 0px !important;
 }
+
+@media (max-width: 1425px) {
+    .card-text-attraction{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card-text-attraction{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 875px) {
+    .card-text-attraction{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 733px) {
+    .card-text-attraction{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 733px) {
+    .card-text-attraction{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-text-attraction{
+        font-size: 20px;
+    }
+}

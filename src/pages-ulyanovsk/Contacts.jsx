@@ -39,20 +39,20 @@ const ContactsCity = () => {
                     <div className='col-lg-8 col-sm-9'>
                         <div className='col-lg-12 col-sm-12 col-title'>
                             <p>
-                                <a className='title-contact no-decotation'>Liked?</a>
+                                <a className='title-contact-city no-decotation'>Liked?</a>
                             </p>
                             <p>
-                                <a className='title-contact no-decotation no-adapt-contact'>Leave a review</a>
+                                <a className='title-contact-city no-decotation no-adapt-contact-city'>Leave a review</a>
                             </p>
                             <p>
-                                <a className='title-contact no-decotation adapt-contact'>Leave a</a>
+                                <a className='title-contact-city no-decotation adapt-contact-city'>Leave a</a>
                             </p>
                             <p>
-                                <a className='title-contact no-decotation adapt-contact'>review</a>
+                                <a className='title-contact-city no-decotation adapt-contact-city'>review</a>
                             </p>
                         </div>
                         <Form onSubmit={handleSubmit}>
-                            <div className='row'>
+                            <div className='row row-submit'>
                                 <div className='col-lg-3 col-sm-6 mb-3'>
                                     <Form.Group className="input-data">
                                         <Form.Control

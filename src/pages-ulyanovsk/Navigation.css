@@ -103,24 +103,11 @@
   }
 }
 
-  @media (max-width: 991.98px) {
-    .cont-sh {
-      display: flex;
-      align-items: center;
-    }
-    
-    .nav-link-city {
-      position: static;
-      margin-left: 0; /* Сбрасываем отступ, чтобы кнопка BACK была слева */
-      margin-right: auto; /* Помещаем логотип справа */
-      text-align: right; /* Выравниваем текст логотипа по правому краю */
-    }
-    
-    .LocalTime-cities {
-      margin-left: auto; /* Помещаем время по середине */
-      margin-right: 10px;
-      position: static; /* Сбрасываем позиционирование, чтобы элемент был в потоке документа */
-      margin-top: 10px; /* Небольшой отступ сверху */
+  @media (max-width: 920px) {
+    .LocalTime-cities{
+      display: none;
     }
   }
+
+
 
