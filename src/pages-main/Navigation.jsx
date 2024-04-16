@@ -60,7 +60,7 @@ const Navigation = () => {
                   </Nav.Link>
                 </Nav>
                 <Nav className="ml-lg-auto mt-xxl-2">
-                  <div className="LocalTime nav-link px-4">
+                  <div className="LocalTime nav-link nav-date px-4">
                   {moscowTime} Moscow, Russia
                   </div>
                 </Nav>

@@ -109,5 +109,25 @@
     }
   }
 
+  @media (max-width: 785px) {
+    .city-text-in{
+      font-size: 88px;
+      line-height: 106px;
+    }
 
+    .text-city2{
+      right: -15px;
+      margin-top: 160px;
+    }
+  }
 
+  @media (max-width: 620px) {
+    .city-text-in{
+      font-size: 58px;
+      line-height: 66px;
+    }
+
+    .text-city2{
+      margin-top: 100px;
+    }
+  }

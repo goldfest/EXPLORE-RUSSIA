@@ -28,7 +28,7 @@ const Places = () => {
                 </p>
                 <div className="container-places">
                     <div className="box">
-                        <img src={Photo1} />
+                        <img src={Photo1}/>
                         <p className='obvodka1'>
                             <a>Best-01</a>
                         </p>
@@ -192,12 +192,12 @@ const Places = () => {
                                 </div>
                                 <div className="popup">
                                     <div className='row'>
-                                        <div className='col-12 text-center photos-activity'>
+                                        <div className='col-12 text-center photos-activity-mini'>
                                             <div className='photo-in-blur1-mini'>
-                                                <img src={Photo1in7} className='photo-activity'/>
+                                                <img src={Photo1in7} className='photo-activity-mini'/>
                                             </div>
                                             <div className='photo-in-blur2-mini'>
-                                                <img src={Photo2in7} className='photo-activity'/>
+                                                <img src={Photo2in7} className='photo-activity-mini'/>
                                             </div>
                                         </div>
                                     </div>

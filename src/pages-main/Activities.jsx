@@ -209,12 +209,12 @@ const About = () => {
                                 </div>
                                 <div className="popup">
                                     <div className='row'>
-                                        <div className='col-12 text-center photos-activity'>
+                                        <div className='col-12 text-center photos-activity-mini'>
                                             <div className='photo-in-blur1-mini'>
-                                                <img src={Photo1in2} className='photo-activity'/>
+                                                <img src={Photo1in2} className='photo-activity-mini'/>
                                             </div>
                                             <div className='photo-in-blur2-mini'>
-                                                <img src={Photo2in2} className='photo-activity'/>
+                                                <img src={Photo2in2} className='photo-activity-mini'/>
                                             </div>
                                         </div>
                                     </div>
@@ -248,12 +248,12 @@ const About = () => {
                                 </div>
                                 <div className="popup">
                                     <div className='row'>
-                                        <div className='col-12 text-center photos-activity'>
+                                        <div className='col-12 text-center photos-activity-mini'>
                                             <div className='photo-in-blur1-mini'>
-                                                <img src={Photo1in3} className='photo-activity'/>
+                                                <img src={Photo1in3} className='photo-activity-mini'/>
                                             </div>
                                             <div className='photo-in-blur2-mini'>
-                                                <img src={Photo2in3} className='photo-activity'/>
+                                                <img src={Photo2in3} className='photo-activity-mini'/>
                                             </div>
                                         </div>
                                     </div>

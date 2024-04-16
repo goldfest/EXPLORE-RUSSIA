@@ -71,6 +71,7 @@
     right: 0; 
   }
 
+
   .container-places {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -85,7 +86,7 @@
     overflow: hidden;
     transition: .5s;
     margin: 0 2%;
-
+    border-radius: 15px;
     line-height: 0;
   }
   
@@ -95,6 +96,8 @@
     object-fit: cover; 
     transition: .9s;
     filter: grayscale(100%);
+    border-radius: 15px;
+
   }
   
   .box > p {
@@ -274,5 +277,77 @@
   padding-right: 30px;
 }
 
+
 }
+
+@media (max-width: 658px ) {
+  .btn-ticket {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 8px 15px !important;
+  }
+  .ticket-up{
+    bottom: 80px !important;
+    right: 10px !important;
+}
+.card:hover .ticket-up{
+  bottom: 75% !important; 
+}
+}
+
+@media (max-width: 730px ) {
+
+.obvodka3{
+  width: 250px;
+}
+
+.box > .obvodka1 {
+margin-top: -265px;
+font-size: 10px;
+line-height: 16px;
+}
+
+.box > .obvodka2 {
+margin-top: -230px;
+font-size: 18px;
+
+}
+
+.box > .obvodka3 {
+margin-top: -170px;
+font-size: 12px;
+}
+}
+
+@media (max-width: 580px ) {
+
+  .obvodka3{
+    width: 200px;
+  }
+  
+  .box > .obvodka1 {
+  margin-top: -170px;
+  font-size: 8px;
+  line-height: 8px;
+  }
+  
+  .box > .obvodka2 {
+  margin-top: -143px;
+  font-size: 10px;
+  line-height: 10px;
+
+  
+  }
+  
+  .box > .obvodka3 {
+  margin-top: -110px;
+  font-size: 11px;
+  line-height: 11px;
+  }
+
+  .box > p {
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+  }
 
