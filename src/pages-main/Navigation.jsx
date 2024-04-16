@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import {
  Nav, Navbar,
 } from 'react-bootstrap';
@@ -8,6 +9,11 @@ import Slide2 from '../assets/2slide.png';
 import './Navigation.css';
 
 const Navigation = () => {
+  const [expanded, setExpanded] = useState(false);
+
+  const closeMenu = () => {
+    setExpanded(false);
+  };
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -17,27 +23,27 @@ const Navigation = () => {
     return (
       <>
         <header className='header container-fluid'>
-          <Navbar expand="lg" sticky="top">
+          <Navbar expand="lg" sticky="top" expanded={expanded} onToggle={() => setExpanded(!expanded)}>
             <Navbar.Brand onClick={() => scrollToSection('main')} className='logo' as={Link} to="MainPage">
                 <img className="brand" src={Logo} alt="Logo" />
             </Navbar.Brand>
             <div className='container-fluid'>
-              <Navbar.Toggle aria-controls="navbarResponsive" className='' />
-              <Navbar.Collapse id="navbarResponsive">
+              <Navbar.Toggle aria-controls="navbarResponsive" />
+              <Navbar.Collapse id="navbarResponsive" className='navbar-resp'>
                 <Nav className="mx-auto mt-xxl-2 justify-content-center">
-                  <Nav.Link onClick={() => scrollToSection('main')} className="nav-link px-4">
+                  <Nav.Link onClick={() => { scrollToSection('main'); closeMenu(); } } className="nav-link px-4 nav-link-header">
                     HOME
                   </Nav.Link>
-                  <Nav.Link onClick={() => scrollToSection('about')} className="nav-link px-4">
+                  <Nav.Link onClick={() => { scrollToSection('about'); closeMenu(); }} className="nav-link px-4 nav-link-header">
                     ABOUT
                   </Nav.Link>
-                  <Nav.Link onClick={() => scrollToSection('start')} className="nav-link px-4">
+                  <Nav.Link onClick={() => { scrollToSection('start'); closeMenu(); }} className="nav-link px-4 nav-link-header">
                     START
                   </Nav.Link>
-                  <Nav.Link onClick={() => scrollToSection('activities')} className="nav-link px-4">
+                  <Nav.Link onClick={() => { scrollToSection('activities'); closeMenu(); }} className="nav-link px-4 nav-link-header">
                     ACTIVITIES
                   </Nav.Link>
-                  <Nav.Link onClick={() => scrollToSection('contacts')} className="nav-link px-4">
+                  <Nav.Link onClick={() => { scrollToSection('contacts'); closeMenu(); }} className="nav-link px-4 nav-link-header">
                     CONTACTS
                   </Nav.Link>
                 </Nav>

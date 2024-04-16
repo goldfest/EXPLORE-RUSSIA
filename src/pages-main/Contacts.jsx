@@ -56,7 +56,7 @@ const Contacts = () => {
                             </p>
                         </div>
                         <Form onSubmit={handleSubmit}>
-                            <div className='row'>
+                            <div className='row row-submit'>
                                 <div className='col-lg-3 col-sm-6 mb-3'>
                                     <Form.Group className="input-data">
                                         <Form.Control
@@ -72,17 +72,17 @@ const Contacts = () => {
                                 </div>
                                 <div className='col-lg-1 col-sm-0 ppppp'></div>
                                 <div className='col-lg-6 col-sm-6'>
-                                <Form.Group className="input-data">
-                                    <Form.Control
-                                    type="email"
-                                    name="email"
-                                    value={formData.email}
-                                    onChange={handleChange}
-                                    placeholder="My Email"
-                                    required
-                                    />
-                                    <hr className='horizontal-line-contact'/>
-                                </Form.Group>
+                                    <Form.Group className="input-data">
+                                        <Form.Control
+                                        type="email"
+                                        name="email"
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                        placeholder="My Email"
+                                        required
+                                        />
+                                        <hr className='horizontal-line-contact'/>
+                                    </Form.Group>
                                 </div>
                             </div>
                             <div className='row row-quastion'>

@@ -12,7 +12,6 @@
     line-height: 63px;
     letter-spacing: 0.01em;
     text-transform: uppercase;
-    color: #000000;
     text-decoration: none;
     padding-left: 27px;
     width: 10px;
@@ -30,7 +29,7 @@
     line-height: 18px;
     text-align: justify;
     letter-spacing: 0.01em;
-    color: #000000;
+    color: rgb(229, 181, 181) !important;
     text-decoration: none;
   }
 
@@ -52,7 +51,6 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 22px;
-    color: #000000;
     letter-spacing: 0.01em;
     text-decoration: none;
   }
@@ -63,7 +61,7 @@
     font-size: 16px;
     line-height: 18px;
     text-align: right;
-    color: #000000;
+    color: rgb(229, 181, 181) !important;
     letter-spacing: 0.01em;
     text-decoration: none;
   }

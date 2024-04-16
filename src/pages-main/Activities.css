@@ -8,15 +8,21 @@
     padding-left: 24px;
     margin-right: 14px;
     padding-bottom: 50px;
+    
 }
-
+.align-items-center {
+    display: flex;
+    flex-wrap: nowrap; 
+    align-items: center;
+}
 
 .activities-title{
     font-family: 'bebas_neue_regular';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 72px;
     line-height: 55px;
+    margin-right: 10px;
     text-transform: uppercase;
     color: #9C0309;
 }
@@ -44,11 +50,12 @@
 }
 
 .btn-tag {
+    font-size: 22px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0px 20px;
-    border: 3px solid #000000;
+    border: 2px solid #000000;
     border-radius: 25px;
     color: black; 
     transition: transform 0.2s; 
@@ -61,13 +68,26 @@
 
 .btn-arrow {
     color:#9C0309;
-    border: 3px solid #9C0309;
+    border: 2px solid #9C0309;
+}
+
+.true-arrow {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.left-arrow {
+    margin-right: 7px;
 }
 
 .buttons{
     margin-top: 18px;
+    margin-bottom: 11px;
     overflow-x: auto; 
     white-space: nowrap; 
+    display: flex;
+    justify-content: flex-end;
 }
 
 .buttons2{
@@ -85,14 +105,18 @@
 
   }
 
-  @media (max-width: 900px ) {
-    .buttons2{
+
+  @media (max-width: 1200px ) {
+    .true-arrow{
         display: none;
     }
     .buttons {
         width: 100%;
+        display: flex;
+        justify-content: flex-start;
     }
-
+}
+  @media (max-width: 900px ) {
     .activities-title{
         font-size: 64px;
         line-height: 73px;
@@ -130,28 +154,30 @@
 
   }
 
+.hov:hover {
+    fill: black;
+}
 
+.hov:hover .str {
+    stroke: black;
+}
 .btn-arrow1 {
-    color:white;
-    border: 2px solid white;
     position: absolute;
     top: 10px;
-    right: 75px;
+    right: 80px;
 }
 
 .btn-arrow2 {
-    color:white;
-    border: 2px solid white;
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 15px;
 }
 
 .name-activity{
     font-family: 'BaruSansDemo-Regular';
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 11px;
     line-height: 18px;
     text-align: justify;
     letter-spacing: -0.01em;
@@ -319,25 +345,3 @@
         display: block;
     }
   }
-
-  @media (max-width: 680px ) {
-    .paragraph-activity{
-        font-size: 12px;
-    }
-  }
-
-  @media (max-width: 628px ) {
-    .paragraph-activity{
-        font-size: 12px;
-    }
-    .paragr-2{
-        display: none;
-    }
-  }
-
-  @media (max-width: 532px ) {
-    .paragraph-activity{
-        font-size: 10px;
-    }
-  }
-

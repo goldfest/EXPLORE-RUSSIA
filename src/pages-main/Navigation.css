@@ -57,6 +57,17 @@
     }
   
   }
+
+  @media (max-width: 992px){
+    .navbar-resp{
+        padding-bottom: 630px !important;
+    }
+    .nav-link-header {
+      font-size: 41px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+}
   
   @media (max-width: 220px ) {
 

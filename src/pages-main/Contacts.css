@@ -160,3 +160,16 @@
         line-height: 155px;
     }
   }
+
+  @media (max-width: 575px) {
+    .photo-contact{
+        display: none;
+    }
+    .col-title{
+        margin-left: 30px !important;
+    }
+
+    .row-quastion, .row-submit{
+        margin-left: 30px !important;
+    }
+  }
